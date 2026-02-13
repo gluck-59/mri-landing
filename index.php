@@ -70,14 +70,17 @@
             border-left: 3px solid #2563eb;
             padding-left: 1rem;
         }
+
+        .me-2 {
+            height: 3rem;
+        }
     </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#top">
-            <span class="logo-text">Atlas</span>
-            <span class="ms-1 text-muted">Radiologic Atlas</span>
+            <img src="https://atlas-xray.com/images/logo-en.jpg" alt="Atlas Radiologic Anatomy Atlas" height="32" class="me-2">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
