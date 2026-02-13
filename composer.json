@@ -1,0 +1,15 @@
+{
+  "name": "mri-landing/atlas-landing",
+  "description": "Landing page for Atlas Radiologic Anatomy Atlas campaign",
+  "type": "project",
+  "require": {
+    "php": ">=7.3",
+    "twbs/bootstrap": "^5.3",
+    "components/jquery": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
