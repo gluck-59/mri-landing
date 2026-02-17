@@ -74,6 +74,33 @@
         .me-2 {
             height: 3rem;
         }
+
+        .atlas-thumb {
+            height: auto;
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 767.98px) {
+            #features .feature-icon {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 0;
+                margin-right: 0.75rem;
+            }
+
+            #features h3.h6.mb-2 {
+                display: inline-flex;
+                align-items: center;
+                margin-bottom: 0.25rem;
+            }
+
+            #features .feature-icon + h3.h6.mb-2 {
+                margin-top: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -121,6 +148,9 @@
                                 <span class="pill bg-light text-muted">Radiologic Anatomy Atlas</span>
                                 <span class="badge badge-soft">MRI &amp; CT</span>
                             </div>
+                            <div class="mb-3 text-center">
+                                <img src="https://atlas-xray.com/sections/mri-thoracic-spine/mini.png" alt="Atlas MRI thoracic spine cross-sections" class="img-fluid rounded shadow-sm atlas-thumb">
+                            </div>
                             <h2 class="h5 mb-3">See anatomy exactly as you see it on the workstation.</h2>
                             <ul class="list-unstyled small text-muted mb-4">
                                 <li class="mb-2">&#10003; Cross-sectional anatomy aligned with standard MRI and CT protocols</li>
@@ -165,7 +195,7 @@
                     <p class="text-muted">Atlas is built for diagnostic imaging professionals who need precise cross-sectional anatomy every day.</p>
                 </div>
             </div>
-            <div class="row g-4">
+            <div id="features" class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
@@ -225,6 +255,38 @@
                 <div class="col-lg-8">
                     <h2 class="h3 mb-3">What makes Atlas different?</h2>
                     <p class="text-muted">Atlas is built around the way radiologists actually work with MRI and CT—by protocol, by plane and by structure.</p>
+                </div>
+            </div>
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-soft h-100">
+                        <div class="card-body text-center">
+                            <p class="small text-muted mb-3">MRI thoracic spine &amp; cerebral arteries – example sections from the Atlas</p>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <img src="https://atlas-xray.com/sections/mri-thoracic-spine/mini.png" alt="Atlas MRI thoracic spine section" class="img-fluid rounded atlas-thumb">
+                                </div>
+                                <div class="col-6">
+                                    <img src="https://atlas-xray.com/sections/mri-arteries-of-the-brain/mini.png" alt="Atlas MRI arteries of the brain section" class="img-fluid rounded atlas-thumb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-soft h-100">
+                        <div class="card-body text-center">
+                            <p class="small text-muted mb-3">MRI hand &amp; neck vessels – detailed cross-sectional anatomy</p>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <img src="https://atlas-xray.com/sections/mri-hand/mini.png" alt="Atlas MRI hand section" class="img-fluid rounded atlas-thumb">
+                                </div>
+                                <div class="col-6">
+                                    <img src="https://atlas-xray.com/sections/mri-vessels-of-the-neck/mini.png" alt="Atlas MRI vessels of the neck section" class="img-fluid rounded atlas-thumb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row g-4">
